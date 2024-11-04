@@ -130,6 +130,9 @@ generate_plot <- function(data, concentration = "mg/ml", base_size = 8){
   }else{
     t_test <- list()
     t_test$p.value <- NA
+
+    wilcox_test <- list()
+    wilcox_test$p.value <- NA
   }
   
 
