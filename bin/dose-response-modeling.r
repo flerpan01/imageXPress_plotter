@@ -1,7 +1,7 @@
 ## Reference: Ritz, C.; Baty, F.; Streibig, J. C.; Gerhard, D. Dose-Response Analysis Using R. PLOS ONE 2015, 10 (12), e0146021. https://doi.org/10.1371/journal.pone.0146021.
 
 Results <- read_excel("24h_TCS.xlsx")
-#View(X2h_2_4_DNP_lowVol)
+
 
 data = Results
 cmin <- min(data$conc)+0.01 # need to shift conc == 0 a bit up, otherwise there are problems with coord_trans
@@ -47,7 +47,7 @@ daphnia_JC1_norm.m <- drm(R_G_norm ~ conc, data = data, fct = LL.4(fixed = c(NA,
   
   # new dose levels as support for the line
   newdata_JC1_norm <- expand.grid(conc=exp(seq(log(cmin), log(cmax), length=1000)))   #log
-  # newdata_JC1 <- expand.grid(conc=seq(0.5, cmax, length=10000))
+
   # predictions and confidence intervals
   pm_JC1_norm <- predict(daphnia_JC1_norm.m , newdata=newdata_JC1_norm, interval="confidence")
   
@@ -71,7 +71,7 @@ a <- ylim.prim[1] - b*ylim.sec[1]
  data$conc0 <- data$conc 
   #data$conc0[data$conc0 == 0] <- 0.3 # moving only concentration 0 to conc 0.5 (log)
   
-     # plotting the curve
+     # plot
     
   #coeff <- 17  # range difference between left and right y-axis
 
