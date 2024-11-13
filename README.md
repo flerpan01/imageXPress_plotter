@@ -19,9 +19,9 @@ project/
 |   `-- 24h_TCS.xlsx
 |-- img/
 |-- imgxpress_files/
-|   |-- imgxpress_files/2023-06-02-DM-JC1-CCCP-2h_I.xlsx
-|   |-- imgxpress_files/2023-06-02-DM-JC1-CCCP-2h_II.xlsx
-|   `-- imgxpress_files/2023-06-02-DM-JC1-CCCP-2h_III.xlsx
+|   |-- 2023-06-02-DM-JC1-CCCP-2h_I.xlsx
+|   |-- 2023-06-02-DM-JC1-CCCP-2h_II.xlsx
+|   `-- 2023-06-02-DM-JC1-CCCP-2h_III.xlsx
 `-- README.md
 ```
 
