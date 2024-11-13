@@ -8,7 +8,7 @@ The aim of this project was to develop an image-based analysis method for toxico
 
 Three example files are found in `imgxpress_files` folder to test the code on. `bin` contains the functions and code needed to produce the plots.
 
-```sh
+```
 project/
 |-- bin/
 |   |-- dose_response.R
