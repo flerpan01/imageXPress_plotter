@@ -1,6 +1,6 @@
 ## Reference: Ritz, C.; Baty, F.; Streibig, J. C.; Gerhard, D. Dose-Response Analysis Using R. PLOS ONE 2015, 10 (12), e0146021. https://doi.org/10.1371/journal.pone.0146021.
 
-Results <- read_excel("24h_TCS.xlsx")
+Results <- read_excel("doc/24h_TCS.xlsx")
 
 
 data = Results
