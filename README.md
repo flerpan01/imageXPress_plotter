@@ -1,3 +1,13 @@
+# This repository has moved
+
+This repository has been moved! You can now find it here:
+
+### https://github.com/andreyhgl/image-based-analysis
+
+// Andrey 2025-06-18
+
+---
+
 # Project summary
 
 The aim of this project was to develop an image-based analysis method for toxicological effects in Daphnia magna after exposure to industrial chemicals and/or environmental samples. Molecular staining with JC-1 combined with fluorescence microscopy was used to measure adverse effects on mitochondrial health. The effects were measured based on light intensity data extracted from fluorescence images.  Fast generation of toxicological data is a main goal in this study. Therefore image acquisition was done with an automated multipoint confocal high-content imaging system suitable for experiments in multi-well plates. To have an efficient analysis of intensity data, this R workflow was developed to process the microscope output, perform basic statistical analysis and generate figures to get a fast and comprehensive overview about the data
